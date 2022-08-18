@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pygame-Game-Engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pygame_game_engine" vcs="Git" />
+  </component>
+</project>
