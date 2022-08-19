@@ -27,6 +27,7 @@ class MainScreen(Screen):
     toolbar_dimensions = None
     current_popup = None
     has_popup = False
+    selected_component = None #TODO add selecting components
 
     # Toolbar Buttons
     draw_button = Button("Draw", font_size, pleasing_green, dark_green, white)
@@ -78,6 +79,7 @@ class MainScreen(Screen):
 
     def run(self):
         self.draggable_components += self.new_draggable_components
+        self.new_draggable_components = []
 
         self.run_bar_clicking(self.component_bar, self.spawn_component)
         self.run_bar_clicking(self.toolbar, self.open_toolbar_popup)
